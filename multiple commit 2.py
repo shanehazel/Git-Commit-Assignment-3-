@@ -6,8 +6,11 @@ keyword_str = input("Enter the keyword to encrypt: ")
 
 # define cipher string
 def cipher_str(plaintext_str, keyword_str):
+
+    # make the plaintext and keyword all caps and no spaces
+    plaintext_str = plaintext_str.upper().replace("","")
+    keyword_str = keyword_str.upper().replace("","")
     
-# make the plaintext and keyword all caps and no spaces
 # store the value in cipher code
 # check every character in the plaintext
 # translate letter to its corresponding nuumber
