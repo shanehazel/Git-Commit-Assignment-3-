@@ -21,7 +21,9 @@ def cipher_str(plaintext_str, keyword_str):
         plaintext_int = ord(plaintext_str[i]) - 65
         keyword_int = ord(keyword_str[i % len(keyword_str)]) - 65
 
-# encrypt the plaintext with the given keyword
+        # encrypt the plaintext with the given keyword
+        ciphercode_int = (plaintext_int + keyword_int) % 26
+        
 # translate number to its corresponding letter
 # convert cipher text int to str
 # print output
