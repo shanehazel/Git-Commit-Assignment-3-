@@ -32,3 +32,4 @@ def cipher_str(plaintext_str, keyword_str):
 ciphercode = cipher_str(plaintext_str, keyword_str)
 
 # print output
+print("Ciphertext: ", ciphercode)
