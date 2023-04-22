@@ -29,4 +29,6 @@ def cipher_str(plaintext_str, keyword_str):
     return ciphercode
 
 # convert cipher text int to str
+ciphercode = cipher_str(plaintext_str, keyword_str)
+
 # print output
