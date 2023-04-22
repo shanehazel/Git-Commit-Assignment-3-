@@ -16,8 +16,11 @@ def cipher_str(plaintext_str, keyword_str):
 
     # check every character in the plaintext
     for i in range(len(plaintext_str)):
-        
-# translate letter to its corresponding nuumber
+
+        # translate letter to its corresponding number
+        plaintext_int = ord(plaintext_str[i]) - 65
+        keyword_int = ord(keyword_str[i % len(keyword_str)]) - 65
+
 # encrypt the plaintext with the given keyword
 # translate number to its corresponding letter
 # convert cipher text int to str
