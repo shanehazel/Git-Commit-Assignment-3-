@@ -11,10 +11,12 @@ def cipher_str(plaintext_str, keyword_str):
     plaintext_str = plaintext_str.upper().replace("","")
     keyword_str = keyword_str.upper().replace("","")
 
-# store the value in cipher code
+    # store the value in cipher code
     ciphercode = ""
 
-# check every character in the plaintext
+    # check every character in the plaintext
+    for i in range(len(plaintext_str)):
+        
 # translate letter to its corresponding nuumber
 # encrypt the plaintext with the given keyword
 # translate number to its corresponding letter
