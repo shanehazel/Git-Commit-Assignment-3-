@@ -1,6 +1,8 @@
 # pseudocode
 
 # ask user for plaintext and keyword (all caps, no spaces)
+plaintext_str = input("Enter the message to encrypt: ")
+keyword_str = input("Enter the keyword to encrypt: ")
 # define cipher string
 # make the plaintext and keyword all caps and no spaces
 # store the value in cipher code
