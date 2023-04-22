@@ -23,7 +23,10 @@ def cipher_str(plaintext_str, keyword_str):
 
         # encrypt the plaintext with the given keyword
         ciphercode_int = (plaintext_int + keyword_int) % 26
-        
-# translate number to its corresponding letter
+
+        # translate number to its corresponding letter
+        ciphercode += chr(ciphercode_int + 65)
+    return ciphercode
+
 # convert cipher text int to str
 # print output
