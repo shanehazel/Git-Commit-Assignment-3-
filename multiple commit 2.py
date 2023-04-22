@@ -10,8 +10,10 @@ def cipher_str(plaintext_str, keyword_str):
     # make the plaintext and keyword all caps and no spaces
     plaintext_str = plaintext_str.upper().replace("","")
     keyword_str = keyword_str.upper().replace("","")
-    
+
 # store the value in cipher code
+    ciphercode = ""
+
 # check every character in the plaintext
 # translate letter to its corresponding nuumber
 # encrypt the plaintext with the given keyword
